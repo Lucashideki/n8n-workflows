@@ -60,8 +60,16 @@ Arquitetura de RAG (Retrieval-Augmented Generation) com embeddings, vector store
 ---
 
 ### 🔹 [Monitoramento de Instância WhatsApp](./projects/monitoramento-instancia-whatsapp)
+
 Monitoramento contínuo de instância WhatsApp com alerta automático via Telegram em caso de queda, originado de um problema real identificado em produção.
 **Stack:** n8n • JavaScript • Evolution API • Telegram
+
+---
+
+### 🔹 [Versionamento](./projects/versionamento)
+
+Automação para versionamento contínuo de workflows no n8n, criada para resolver a falta de diff e rastreabilidade clara de mudanças. A solução consulta a API, compara `versionId` e realiza commit automático no GitHub.
+**Stack:** n8n • JavaScript • API n8n • GitHub API
 
 ---
 
