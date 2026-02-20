@@ -59,6 +59,14 @@ Criação de arquivos versionados (.json)
 
 ![Workflow Versionamento](./workflow.png)
 
+## Commit
+
+![Commit Versionamento](./commit.png)
+
+## Diff
+
+![Commit Versionamento](./diff.png)
+
 ---
 
 ## Impacto
