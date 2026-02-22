@@ -1,96 +1,95 @@
 # n8n Workflows & Automation Portfolio
 
-A portfolio of workflows and automations built with a focus on:
+Portfólio de workflows e automações desenvolvidas com foco em:
 
-Operational efficiency
-Process automation
-System integrations
-Manual task reduction
-Scalability
-
----
-
-## About
-
-I'm **Lucas Hideki**, a Product Owner with strong expertise in processes, operations and automation.
-
-My approach combines product vision, business logic and technical feasibility, building solutions that:
-
-- Optimize operational flows
-- Reduce friction and manual errors
-- Standardize processes
-- Increase scalability
-
-I use **n8n** as the central platform for orchestrating integrations, business rules and automations.
+Eficiência operacional  
+Automação de processos  
+Integrações entre sistemas  
+Redução de tarefas manuais  
+Escalabilidade  
 
 ---
 
-## Projects
+## Sobre
 
-### 🔹 [Intelligent Billing Automation](./projects/cobranca-boletos)
+Sou **Lucas Hideki**, Product Owner com forte atuação em processos, operações e automação.
 
-Billing flow automation with delay calculation, stage definition and automated message sending based on business rules.
+Minha abordagem combina visão de produto, lógica de negócio e viabilidade técnica, estruturando soluções que:
 
-**Stack:** n8n • Google Sheets • JavaScript • APIs
+- Otimizam fluxos operacionais  
+- Reduzem fricções e erros manuais  
+- Padronizam processos  
+- Aumentam escalabilidade  
 
----
-
-### 🔹 [WhatsApp Virtual Assistant](./projects/assistente-whatsapp)
-
-Virtual assistant with AI, multimodal processing (text, audio, image), conversational memory and external integrations.
-
-**Stack:** n8n • OpenAI • PostgreSQL • Redis • Supabase • APIs
+Utilizo o **n8n** como plataforma central para orquestração de integrações, regras e automações.
 
 ---
 
-### 🔹 [Automatic Appointment Reminders](./projects/lembrete-agendamentos)
+## Projetos
 
-Workflow for automatic appointment reminder sending, reducing no-shows and manual effort.
+### 🔹 [Cobrança Inteligente de Boletos](./projects/cobranca-boletos)
 
-**Stack:** n8n • PostgreSQL • APIs • WhatsApp
+Automação de fluxo de cobrança com cálculo de atraso, definição de etapas e envio automatizado baseado em regras de negócio.
+
+**Stack:** n8n • Google Sheets • JavaScript • APIs  
+
+---
+
+### 🔹 [Assistente Virtual WhatsApp](./projects/assistente-whatsapp)
+
+Assistente virtual com IA, processamento multimodal (texto, áudio, imagem), memória conversacional e integrações externas.
+
+**Stack:** n8n • OpenAI • PostgreSQL • Redis • Supabase • APIs  
+
+---
+
+### 🔹 [Lembrete Automático de Agendamentos](./projects/lembrete-agendamentos)
+
+Workflow para envio automático de lembretes de agendamento, evitando no-show e reduzindo esforço manual.
+
+**Stack:** n8n • PostgreSQL • APIs • WhatsApp  
 
 ---
 
 ### 🔹 [RAG AI Agent](./projects/rag-ai-agent)
 
-RAG (Retrieval-Augmented Generation) architecture with embeddings, vector store (Pinecone) and AI Agent for document-based queries.
+Arquitetura de RAG (Retrieval-Augmented Generation) com embeddings, vector store (Pinecone) e AI Agent para consultas baseadas em documentos.
 
-**Stack:** n8n • OpenAI • Pinecone
+**Stack:** n8n • OpenAI • Pinecone  
 
 ---
 
-### 🔹 [WhatsApp Instance Monitoring](./projects/monitoramento-instancia-whatsapp)
+### 🔹 [Monitoramento de Instância WhatsApp](./projects/monitoramento-instancia-whatsapp)
 
-Continuous WhatsApp instance monitoring with automatic Telegram alerts on downtime — originated from a real production issue.
-
+Monitoramento contínuo de instância WhatsApp com alerta automático via Telegram em caso de queda, originado de um problema real identificado em produção.
 **Stack:** n8n • JavaScript • Evolution API • Telegram
 
 ---
 
-### 🔹 [Workflow Versioning](./projects/versionamento)
+### 🔹 [Versionamento](./projects/versionamento)
 
-Automation for continuous workflow versioning in n8n, created to solve the lack of diff and change traceability. Queries the API, compares `versionId` and performs automatic commits to GitHub.
-
-**Stack:** n8n • JavaScript • n8n API • GitHub API
-
----
-
-## Key Skills Demonstrated
-
-Process automation
-Workflow Design
-API integrations
-JavaScript logic
-Automation architecture
-Applied AI (LLMs / RAG / Multimodal)
-Operational efficiency
+Automação para versionamento contínuo de workflows no n8n, criada para resolver a falta de diff e rastreabilidade clara de mudanças. A solução consulta a API, compara `versionId` e realiza commit automático no GitHub.
+**Stack:** n8n • JavaScript • API n8n • GitHub API
 
 ---
 
-## Contact
+## Principais Competências Demonstradas
 
-📧 **lucashidekitb@gmail.com**
-🔗 **LinkedIn:** https://www.linkedin.com/in/lucas-hideki-tb
-💻 **GitHub:** https://github.com/Lucashideki
+Automação de processos  
+Workflow Design  
+Integrações via API  
+Regras e lógica em JavaScript  
+Arquitetura de automações  
+IA aplicada (LLMs / RAG / Multimodal)  
+Eficiência operacional  
 
 ---
+
+## Contato
+
+📧 **lucashidekitb@gmail.com**  
+🔗 **LinkedIn:** https://www.linkedin.com/in/lucas-hideki-tb  
+💻 **GitHub:** https://github.com/Lucashideki  
+
+---
+
