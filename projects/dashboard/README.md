@@ -40,8 +40,8 @@ O painel se atualiza automaticamente a cada 30 segundos. Pode ser deixado aberto
 
 ## Dashboard
 
-![dashboard-1](./dashboard-1.png)
 ![dashboard-2](./dashboard-2.png)
+![dashboard-1](./dashboard-1.png)
 
 
 Acessado via browser pela URL do webhook. Cada acesso consulta a API do n8n em tempo real e retorna o dashboard atualizado.
