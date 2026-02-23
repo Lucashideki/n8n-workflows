@@ -71,6 +71,8 @@ Monitoramento contínuo de instância WhatsApp com alerta automático via Telegr
 
 Automação para versionamento contínuo de workflows no n8n, criada para resolver a falta de diff e rastreabilidade clara de mudanças. A solução consulta a API, compara `versionId` e realiza commit automático no GitHub.
 
+---
+
 **Stack:** n8n • JavaScript • API n8n • GitHub API
 
 ### 🔹 [ Dashboard](./projects/dashboard)
