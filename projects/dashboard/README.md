@@ -41,18 +41,10 @@ O painel se atualiza automaticamente a cada 30 segundos. Pode ser deixado aberto
 ## Dashboard
 
 ![dashboard-1](./dashboard-1.png)
-![dashboard-2](./dashboard-1.png)
+![dashboard-2](./dashboard-2.png)
 
 
 Acessado via browser pela URL do webhook. Cada acesso consulta a API do n8n em tempo real e retorna o dashboard atualizado.
-
----
-
-## Decisão Técnica
-
-O retry automático foi conscientemente descartado.
-
-Em sistemas de produção, retry cego pode duplicar mensagens, gerar cobranças duplas ou criar registros duplicados no banco. A decisão foi monitorar e alertar — não interferir automaticamente.
 
 ---
 
@@ -65,14 +57,11 @@ Em sistemas de produção, retry cego pode duplicar mensagens, gerar cobranças 
 
 ---
 
-## Projetos Relacionados
 
-- [Versionamento](../versionamento) — CI/CD automático para workflows
-- [Monitoramento de Instância WhatsApp](../monitoramento-instancia-whatsapp) — alerta via Telegram em caso de queda
+## 👤 Autor
 
----
+**Lucas Hideki**  
+Product Owner | Automação | n8n | Processos  
 
-## Contato
-
-📧 lucashidekitb@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/lucas-hideki-tb
+📧 lucashidekitb@gmail.com  
+🔗 https://www.linkedin.com/in/lucas-hideki-tb
