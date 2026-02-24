@@ -15,7 +15,7 @@ A pergunta que ficou: dá para detectar antes?
 
 ## A Solução
 
-Na primeira execução o sistema não monitora — ele aprende. Calcula o tempo médio de execução, a taxa de erro aceitável e o intervalo esperado entre execuções. Esse é o baseline.
+Na primeira execução o sistema não monitora, ele aprende. Calcula o tempo médio de execução, a taxa de erro aceitável e o intervalo esperado entre execuções. Esse é o baseline.
 
 A partir daí, a cada 5 minutos compara o comportamento atual com o baseline e detecta anomalias automaticamente.
 
@@ -23,9 +23,9 @@ A partir daí, a cada 5 minutos compara o comportamento atual com o baseline e d
 
 ## Tipos de Anomalia Detectados
 
-- **high_error_rate** — taxa de erro acima do threshold histórico
-- **slow_execution** — execução demorando mais que o dobro do tempo médio
-- **missed_execution** — workflow que deveria ter rodado mas não rodou
+- **high_error_rate**: taxa de erro acima do threshold histórico
+- **slow_execution**: execução demorando mais que o dobro do tempo médio
+- **missed_execution**: workflow que deveria ter rodado mas não rodou
 
 Quando detecta, salva no banco e dispara alerta no Telegram.
 
@@ -33,7 +33,7 @@ Quando detecta, salva no banco e dispara alerta no Telegram.
 
 ## Decisão Técnica
 
-O maior desafio foi o erro "Multiple matches" — quando o n8n não consegue parear itens de nodes diferentes em loops com múltiplos workflows.
+O maior desafio foi o erro "Multiple matches", quando o n8n não consegue parear itens de nodes diferentes em loops com múltiplos workflows.
 
 A solução foi um LEFT JOIN no próprio SELECT do Postgres, trazendo os dados do baseline junto com o contexto do workflow em uma única query. Zero referência a nodes anteriores, zero ambiguidade.
 
