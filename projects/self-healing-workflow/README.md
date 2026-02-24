@@ -50,10 +50,12 @@ A solução foi um LEFT JOIN no próprio SELECT do Postgres, trazendo os dados d
 ![telegram](./telegram.png)
 
 ---
+
 ## Banco de dados
 
 ![bd-2](./bd-1.png)
 ![bd-1](./bd-2.png)
+
 ---
 
 ## Stack

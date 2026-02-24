@@ -75,11 +75,19 @@ Automação para versionamento contínuo de workflows no n8n, criada para resolv
 
 ---
 
-### 🔹 [ Dashboard](./projects/dashboard)
+### 🔹 [Dashboard](./projects/dashboard)
 
 Painel de monitoramento em tempo real para workflows em produção, originado de um problema real identificado com cliente. Monitora todos os workflows `[PROD]`, exibindo taxa de sucesso, histórico de erros e status de cada workflow com atualização automática a cada 30 segundos.
 
 **Stack:** n8n • JavaScript • API n8n • Chart.js
+
+---
+
+### 🔹 [Self-Healing Workflow](./projects/self-healing-workflow)
+
+Sistema de monitoramento inteligente que aprende o comportamento normal de cada workflow e detecta anomalias automaticamente. Identifica alta taxa de erro, execuções lentas e workflows que pararam de rodar, salvando no banco e disparando alerta no Telegram antes que virem problema.
+
+**Stack:** n8n • JavaScript • PostgreSQL • Telegram Bot API
 
 ---
 
