@@ -16,7 +16,7 @@ O problema identificado em produção:
 
 Este workflow nasceu de um problema real em produção.
 
-Monitorando o workflow de lembretes de agendamento, identifiquei falhas nos envios. Ao investigar a causa raiz, a instância WhatsApp do cliente estava offline. O cliente foi avisado imediatamente — mas ficou clara a necessidade de um mecanismo permanente de monitoramento.
+Monitorando o workflow de lembretes de agendamento, identifiquei falhas nos envios. Ao investigar a causa raiz, a instância WhatsApp do cliente estava offline. O cliente foi avisado imediatamente,  mas ficou clara a necessidade de um mecanismo permanente de monitoramento.
 
 Em 40 minutos o workflow estava implementado e ativo.
 
@@ -45,7 +45,7 @@ Notificação direta no grupo dos sócios
 - Verifica se o estado da instância é `close`
 - Se sim, dispara alerta com instância, status e horário
 - Se não, o fluxo encerra sem ação
-- Sem estado desnecessário — simples de propósito
+- Sem estado desnecessário, simples de propósito
 
 ---
 

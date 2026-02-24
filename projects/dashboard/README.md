@@ -18,7 +18,7 @@ A solução imediata foi um alerta via Telegram para quedas de instância. Mas i
 
 ## A Solução
 
-Dashboard que monitora todos os workflows marcados como `[PROD]` em tempo real, consumindo diretamente a API do n8n — sem dependência de ferramentas externas.
+Dashboard que monitora todos os workflows marcados como `[PROD]` em tempo real, consumindo diretamente a API do n8n, sem dependência de ferramentas externas.
 
 O painel se atualiza automaticamente a cada 30 segundos. Pode ser deixado aberto em um monitor separado durante o trabalho.
 
