@@ -91,6 +91,14 @@ Sistema de monitoramento inteligente que aprende o comportamento normal de cada 
 
 ---
 
+### 🔹 [Multi-Tenant Automation Engine](./projects/multi-tenant)
+
+Sistema de automação centralizado que atende múltiplos clientes a partir de um único workflow. Cada tenant tem sua própria configuração de canal, template de mensagem e janela de tempo para disparo, tudo definido no banco, sem duplicar workflows. Suporte a Schedule, Webhook e cadastro via formulário.
+
+**Stack:** n8n • JavaScript • PostgreSQL • Telegram • WhatsApp • Gmail • Twilio
+
+---
+
 ## Principais Competências Demonstradas
 
 Automação de processos  
