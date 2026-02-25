@@ -95,7 +95,7 @@ Nodes estruturados e prontos para ativar: WhatsApp (Evolution API) · E-mail (Gm
 
 ---
 
-## Banco de dados
+## Formulário
 
 ![form](./form.png)
 
