@@ -38,11 +38,11 @@ O mesmo workflow. Configurações completamente diferentes. Zero duplicação.
 
 ## Triggers
 
-**Schedule** — roda a cada 5 minutos e busca eventos dentro da janela de tempo correta para cada regra de cada tenant.
+**Schedule**: roda a cada 5 minutos e busca eventos dentro da janela de tempo correta para cada regra de cada tenant.
 
-**Webhook** — aceita eventos externos autenticados por token no header. Qualquer sistema pode disparar uma automação com a requisição correta.
+**Webhook**:  aceita eventos externos autenticados por token no header. Qualquer sistema pode disparar uma automação com a requisição correta.
 
-**Form Trigger** — interface de cadastro nativa do n8n. Novo tenant entra pelo formulário sem tocar no banco. O cadastro também pode vir de qualquer sistema externo via requisição.
+**Form Trigger**:  interface de cadastro nativa do n8n. Novo tenant entra pelo formulário sem tocar no banco. O cadastro também pode vir de qualquer sistema externo via requisição.
 
 ---
 
