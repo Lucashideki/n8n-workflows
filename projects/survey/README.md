@@ -1,23 +1,10 @@
 # Pulso
+
 Plataforma de pesquisas e votações disparadas via WhatsApp. Cada tenant tem sua própria base de clientes, grupos e configurações. O n8n orquestra o disparo e os relatórios. O Flask entrega o produto.
 
 ---
 
-## O Problema
-
-Tinha um fluxo manual de pesquisa de satisfação rodando para um cliente.  
-Funcionava. Mas a mensagem era hardcoded. A lista de contatos era um CSV na mão.  
-Os resultados chegavam por formulário e precisavam ser compilados manualmente.
-
-Se chegasse um segundo cliente com outra pesquisa: duplica tudo.  
-Uma votação interna de empresa: mais um fluxo.  
-Um processo com perguntas diferentes: outro formulário.
-
-Isso não escala. E não é produto.
-
----
-
-## A Solução
+## Proposito
 
 Um sistema centralizado onde o tenant cria a pesquisa ou votação, define as perguntas e os grupos de destinatários, e com um clique dispara os links personalizados via WhatsApp para cada participante.
 

@@ -99,6 +99,14 @@ Sistema de automação centralizado que atende múltiplos clientes a partir de u
 
 ---
 
+### 🔹 [Pulse](./projects/survey)
+
+Plataforma de pesquisas e votações disparadas via WhatsApp. Cada tenant tem sua própria base de clientes, grupos e configurações. O n8n orquestra o disparo e os relatórios. O Flask entrega o produto.
+
+**Stack:** n8n • JavaScript • PostgreSQL • Python • Flask • Gmail • WhatsApp
+
+---
+
 ## Principais Competências Demonstradas
 
 Automação de processos  
