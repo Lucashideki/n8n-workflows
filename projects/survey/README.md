@@ -26,11 +26,11 @@ O mesmo sistema. Configurações completamente diferentes. Zero duplicação.
 
 ## Triggers
 
-**Disparo manual** — o gestor clica em "Iniciar" no painel. O n8n recebe o webhook, cria os participantes no banco com UUID único e dispara o link personalizado via WhatsApp para cada contato do grupo selecionado.
+**Disparo manual**: o gestor clica em "Iniciar" no painel. O n8n recebe o webhook, cria os participantes no banco com UUID único e dispara o link personalizado via WhatsApp para cada contato do grupo selecionado.
 
-**Encerramento manual** — o gestor clica em "Encerrar". O Flask atualiza o status para `closed` e aciona o webhook de relatório no n8n.
+**Encerramento manual**: o gestor clica em "Encerrar". O Flask atualiza o status para `closed` e aciona o webhook de relatório no n8n.
 
-**Schedule diário** — roda todo dia e busca pesquisas com `expires_at <= NOW()` e `report_sent_at IS NULL`. Para cada uma encontrada, aciona o workflow de relatório automaticamente.
+**Schedule diário**: roda todo dia e busca pesquisas com `expires_at <= NOW()` e `report_sent_at IS NULL`. Para cada uma encontrada, aciona o workflow de relatório automaticamente.
 
 ---
 
@@ -44,7 +44,7 @@ WHERE s.expires_at <= NOW()
   AND s.report_sent_at IS NULL
 ```
 
-Após o envio, o workflow atualiza `report_sent_at = NOW()` — qualquer execução seguinte ignora essa pesquisa.
+Após o envio, o workflow atualiza `report_sent_at = NOW()` qualquer execução seguinte ignora essa pesquisa.
 
 O token UUID por participante é gerado direto no PostgreSQL:
 
@@ -55,7 +55,7 @@ VALUES (..., gen_random_uuid())
 
 Isso garante um voto ou resposta por pessoa sem autenticação complexa no front. O link é o token. O token é a identidade.
 
-O Schedule não duplica lógica — ele chama o próprio webhook de relatório passando o `survey_id` e o `api_token` do tenant:
+O Schedule não duplica lógica ele chama o próprio webhook de relatório passando o `survey_id` e o `api_token` do tenant:
 
 ```
 Schedule → busca vencidas → HTTP Request → /webhook/survey-report
@@ -67,7 +67,7 @@ Um workflow aciona o outro. Zero duplicação de código.
 
 ## Separação de Responsabilidades
 
-O n8n brilha em orquestração — conectar sistemas, reagir a eventos, disparar fluxos. CRUD, sessão e lógica de produto são mais limpos em código.
+O n8n brilha em orquestração conectar sistemas, reagir a eventos, disparar fluxos. CRUD, sessão e lógica de produto são mais limpos em código.
 
 **n8n cuida de:**
 - Autenticação multi-tenant via token no header
@@ -87,7 +87,7 @@ O n8n brilha em orquestração — conectar sistemas, reagir a eventos, disparar
 
 ## Relatório Automático
 
-Quando uma pesquisa encerra — manualmente ou por data — o n8n gera um relatório em HTML e envia por e-mail com:
+Quando uma pesquisa encerra manualmente ou por data o n8n gera um relatório em HTML e envia por e-mail com:
 
 - Taxa de resposta (enviados vs respondidos)
 - NPS Score com detratores, neutros e promotores
