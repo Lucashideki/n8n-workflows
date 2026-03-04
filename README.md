@@ -81,6 +81,10 @@ Painel de monitoramento em tempo real para workflows em produção, originado de
 
 **Stack:** n8n • JavaScript • API n8n • Chart.js
 
+Este workflow está publicado oficialmente no marketplace do n8n.
+
+🔗 [Ver template](https://n8n.io/workflows/13665)
+
 ---
 
 ### 🔹 [Self-Healing Workflow](./projects/self-healing-workflow)
