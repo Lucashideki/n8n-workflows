@@ -12,7 +12,7 @@ Escalabilidade
 
 ## Sobre
 
-Sou **Lucas Hideki**, Product Owner com forte atuação em processos, operações e automação.
+Sou **Lucas Hideki**, desenvolvedor com background em Product Owner e forte atuação em automação, integrações e IA.
 
 Minha abordagem combina visão de produto, lógica de negócio e viabilidade técnica, estruturando soluções que:
 
