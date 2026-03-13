@@ -109,6 +109,8 @@ Plataforma de pesquisas e votações disparadas via WhatsApp. Cada tenant tem su
 
 **Stack:** n8n • JavaScript • PostgreSQL • Python • Flask • Gmail • WhatsApp
 
+---
+
 ### 🔹 [Pulse](./projects/cv-analyzer)
 
 Analisador de currículos com IA para times de RH. O RH cria a vaga, faz upload dos PDFs e recebe score, gaps e perguntas de entrevista gerados por prompts encadeados no n8n. O Flask entrega o produto.
